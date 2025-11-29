@@ -1,0 +1,45 @@
+{
+  "game": {
+    "title": "Space Invaders",
+    "version": "1.0",
+    "max_players": 1,
+    "initial_lives": 3,
+    "difficulty_levels": ["easy", "medium", "hard"],
+    "window_width": 800,
+    "window_height": 600
+  },
+  "player": {
+    "width": 50,
+    "height": 30,
+    "speed": 300,
+    "bullet_speed": 500,
+    "bullet_cooldown": 500
+  },
+  "invaders": {
+    "rows": 5,
+    "cols": 11,
+    "width": 40,
+    "height": 40,
+    "horizontal_speed": 50,
+    "vertical_speed": 30,
+    "bullet_speed": 300,
+    "bullet_chance": 0.001,
+    "points": [10, 20, 30, 40, 50]
+  },
+  "mystery_ship": {
+    "width": 60,
+    "height": 30,
+    "speed": 150,
+    "spawn_chance": 0.001,
+    "points": 300
+  },
+  "bunkers": {
+    "count": 1,
+    "width": 60,
+    "height": 40
+  },
+  "powerups": {
+    "double_shot_duration": 10,
+    "double_shot_cooldown": 100
+  }
+}
